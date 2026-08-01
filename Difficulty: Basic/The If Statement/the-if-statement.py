@@ -1,6 +1,4 @@
 number = int(input())
 
-if number <= 100:
-    print("Number")
-else:
-    print("Big\nNumber")
+output = 'Number' if number <= 100 else 'Big\nNumber'
+print(output)
